@@ -75,6 +75,9 @@ public class Reloj {
 			System.out.println("Diciembre.");
 			break;
 		}
+		
+		//Mostrar año
+		System.out.println("Estamos en el año " + anyo + ".");
 	}
 
 }
