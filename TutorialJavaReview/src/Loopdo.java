@@ -13,15 +13,15 @@ public class Loopdo {
 		//inicio del loop do while
 		do {
 			//escribimos la pregunta al user
-			out.println("¿Borrar archivo? (s/n) :" );
+			out.println("¿Borrar archivo? (s/n) o (S/N) :" );
 			//recuperamos la respuesta
 			replica = miScanner.findWithinHorizon(".", 0).charAt( 0);
 			}
 			//Mientras la respuesta sea diferente de s o n sigue el bucle, cuando sea igual continua al if
 			//mediante el uso del operado && podemos poner mas de una condicion
-			while (replica != 's' && replica != 'n' );
+			while (replica != 's' && replica != 'n' && replica != 'N' && replica != 'S' );
 			
-			if (replica == 's'){
+			if (replica == 's' || replica == 'S'){
 				out.println("De acuerdo, borrando archivo...");
 				archivo.delete();}
 			else {
