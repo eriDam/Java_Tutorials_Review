@@ -5,6 +5,7 @@ public class AnidarLoops {
 		//  
 		int points = 0;
 		int target = 100;
+		//antes de inicar el while, damos el nomre a 1 loop
 		targetLoop:
 		while (target <= 100) {
 			for (int i=0; i < target; i++){
