@@ -18,6 +18,7 @@ public class SalirLoop {
 			}//fin if
 		}//fin while
 
+		
 	}//fin main
 
 }//fin class
