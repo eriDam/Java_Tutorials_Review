@@ -18,7 +18,19 @@ public class ordenarNombres {
 		System.out.println(i + " : "+nombres[i]+ " ");
 	
 	}
-	System.out.println();
+	System.out.println("\n***Realizamos la misma ordenacion pero con un array de números***");
+	System.out.println("     ***Orden array***");
+	int numeros[] ={1,3,2,4,6,5,9,8,7,10};
+	for (int a = 0;a < numeros.length; a++){
+		System.out.println(a + " : "+numeros[a]+ " " );
+	
+	}
+	//Ordenamos con sort por orden 
+	Arrays.sort(numeros);
+	System.out.println("\n **** El nuevo orden ****");
+	for (int a = 0;a < numeros.length; a++){
+		System.out.println(a + " : "+numeros[a]+ " " );
+	}
 	}
 
 }
